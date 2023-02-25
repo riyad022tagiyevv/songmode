@@ -1,0 +1,69 @@
+{
+    "name": "@Rahid_MusicBot",
+    "description": "Azərbaycan dilində Musiqi botu.",
+    "logo": "https://te.legra.ph/file/01f12da067a1340352710.jpg",
+    "keywords": [
+        "Rahid",
+        "Music",
+        "Bot"
+    ],
+    "repository": "https://github.com/",
+    "success_url": "https://github.com/",
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "API_ID": {
+            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "value": "19485442",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "value": "a03fcb372b3ec4e406b5d52f84b02e53",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "@Botfather botundan ala bilərsiniz.",
+            "value": "5585571839:AAHfGYhhsJGf50aPt2EuyB-Hnm4SUBen5HU",
+            "required": true
+        },
+        "PLAYLIST_NAME": {
+            "description": "Playlist kanalının istifadəçi adını @ bu işarə olmadan yazın.",
+            "value": "RahidMusic",
+            "required": true
+        },
+        "PLAYLIST_ID": {
+            "description": "Playlist kanalın ID-ni yazın.",
+            "value": "-1001750384884",
+            "required": true
+        },
+        "BOT_OWNER": {
+            "description": "Öz istifadəçi adınızı @ bu işarə olmadan yazın.",
+            "value": "Rahid_2003",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Botun istifadəçi adını @ bu işarə olmadan yazın.",
+            "value": "Rahid_MusicBot",
+            "required": true
+        },
+        "CHANNEL": {
+            "description": "Kanal istifadəçi adı @ olmadan yerləşdirin.",
+            "value": "Rahid_44",
+            "required": true            
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
