@@ -1,5 +1,5 @@
 {
-    "name": "@Rahid_MusicBot",
+    "name": "@QadirSongBot",
     "description": "Azərbaycan dilində Musiqi botu.",
     "logo": "https://te.legra.ph/file/01f12da067a1340352710.jpg",
     "keywords": [
@@ -18,42 +18,42 @@
     },
     "env": {
         "API_ID": {
-            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "description": "26712413",
             "value": "",
             "required": true
         },
         "API_HASH": {
-            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "description": "3298034eb7cec614ef852fda02536153",
             "value": "",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "@Botfather botundan ala bilərsiniz.",
+            "description": "5984042222:AAFOM33lTp7WlKYynROqslNJJV6ZWo6nc5I",
             "value": "",
             "required": true
         },
         "PLAYLIST_NAME": {
-            "description": "Playlist kanalının istifadəçi adını @ bu işarə olmadan yazın.",
+            "description": "https://t.me/darksideplay",
             "value": "",
             "required": true
         },
         "PLAYLIST_ID": {
-            "description": "Playlist kanalın ID-ni yazın.",
+            "description": "-1001719261837",
             "value": "",
             "required": true
         },
         "BOT_OWNER": {
-            "description": "Öz istifadəçi adınızı @ bu işarə olmadan yazın.",
+            "description": "nesirovqadirofficiall",
             "value": "",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "Botun istifadəçi adını @ bu işarə olmadan yazın.",
+            "description": "QadirSongBot",
             "value": "",
             "required": true
         },
         "CHANNEL": {
-            "description": "Kanal istifadəçi adı @ olmadan yerləşdirin.",
+            "description": "https://t.me/darksideplay",
             "value": "",
             "required": true            
         }
