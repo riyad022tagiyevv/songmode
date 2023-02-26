@@ -19,42 +19,42 @@
     "env": {
         "API_ID": {
             "description": "my.telegram.org saytından ala bilərsiniz.",
-            "value": "19485442",
+            "value": "",
             "required": true
         },
         "API_HASH": {
             "description": "my.telegram.org saytından ala bilərsiniz.",
-            "value": "a03fcb372b3ec4e406b5d52f84b02e53",
+            "value": "",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "@Botfather botundan ala bilərsiniz.",
-            "value": "5585571839:AAHfGYhhsJGf50aPt2EuyB-Hnm4SUBen5HU",
+            "value": "",
             "required": true
         },
         "PLAYLIST_NAME": {
             "description": "Playlist kanalının istifadəçi adını @ bu işarə olmadan yazın.",
-            "value": "RahidMusic",
+            "value": "",
             "required": true
         },
         "PLAYLIST_ID": {
             "description": "Playlist kanalın ID-ni yazın.",
-            "value": "-1001750384884",
+            "value": "",
             "required": true
         },
         "BOT_OWNER": {
             "description": "Öz istifadəçi adınızı @ bu işarə olmadan yazın.",
-            "value": "Rahid_2003",
+            "value": "",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "Botun istifadəçi adını @ bu işarə olmadan yazın.",
-            "value": "Rahid_MusicBot",
+            "value": "",
             "required": true
         },
         "CHANNEL": {
             "description": "Kanal istifadəçi adı @ olmadan yerləşdirin.",
-            "value": "Rahid_44",
+            "value": "",
             "required": true            
         }
     },
