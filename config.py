@@ -9,4 +9,4 @@ class Config:
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "ModernSongBot")
     PLAYLIST_NAME = os.environ.get("PLAYLIST_NAME", "https://t.me/NewModernBlog")
     CHANNEL = os.environ.get("CHANNEL", "NewModernBlog")
-    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1001719261837"))
+    PLAYLIST_ID = int(os.environ.get("PLAYLIST_ID", "-1001852516406"))
